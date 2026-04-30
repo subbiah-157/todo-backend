@@ -40,7 +40,7 @@ app.use(
 app.use(express.json());
 
 /* =============================
-   ROUTES
+   ROUTE
 ============================= */
 app.use("/api/todos", require("./routes/todoRoutes"));
 
